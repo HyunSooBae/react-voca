@@ -3,6 +3,7 @@ import useFetch from "../hooks/useFetch"
 import Word from "./Word"
 
 export default function Day() {
+  const [days, setDays] = useState(false)
   const days = useFetch('http://localhost:3001/days')
   console.log(days)
   const { day } = useParams()
