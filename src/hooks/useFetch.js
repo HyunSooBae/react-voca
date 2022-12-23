@@ -11,7 +11,7 @@ export default function useFetch(url) {
       .then(data => {
         setData(data)
       })
-  }, [url])
+  }, [url]) // -> url이 변경될 때 마다 실행
 
   return data
 }
