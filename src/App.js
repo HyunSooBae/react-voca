@@ -7,7 +7,7 @@ import CreateWord from "./components/CreateWord";
 import CreateDay from "./components/CreateDay";
 
 function App() {
-  console.log('작동!')
+  // console.log('작동!')
   return (
     <BrowserRouter>
       <div className="App">

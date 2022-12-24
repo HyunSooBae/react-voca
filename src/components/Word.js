@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 export default function Word({ word: w }) {
+  console.log(w)
   const [word, setWord] = useState(w)
   const [isShow, setIsShow] = useState(false)
   const [isDone, setIsDone] = useState(word.isDone)

@@ -13,5 +13,6 @@ export default function useFetch(url) {
       })
   }, [url]) // -> url이 변경될 때 마다 실행
 
+  // console.log(data)
   return data
 }
